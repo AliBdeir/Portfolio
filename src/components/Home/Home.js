@@ -18,8 +18,8 @@ function Home() {
               </h1>
 
               <h1 className="heading-name">
-                I'M
-                <strong className="main-name"> SOUMYAJIT BEHERA</strong>
+                We're
+                <strong className="main-name"> O(log n)</strong>
               </h1>
 
               <div style={{ padding: 50, textAlign: "left" }}>
