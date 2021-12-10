@@ -11,7 +11,7 @@ html {
     rgba(12, 10, 22, 0.863)
   );
 
-  --imp-text-color: #c770f0;
+  --imp-text-color: #C17BD4;
 }
 
 .purple {
@@ -152,8 +152,7 @@ html {
 }
 
 .logo {
-  height: 1.4em !important;
-  width: 2.5em !important;
+  height: 2em!important;
 }
 
 .navbar-nav .nav-link {

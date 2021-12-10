@@ -1,10 +1,10 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import Particle from "../Particle";
-import Github from "./Github";
-import Techstack from "./Techstack";
-import Aboutcard from "./AboutCard";
+import { Col, Container, Row } from "react-bootstrap";
 import laptopImg from "../../Assets/about.png";
+import Particle from "../Particle";
+import { Purple } from "../Purple";
+import Aboutcard from "./AboutCard";
+import Techstack from "./Techstack";
 import Toolstack from "./Toolstack";
 
 function About() {
@@ -22,7 +22,7 @@ function About() {
             }}
           >
             <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-              Know Who <strong className="purple">I'M</strong>
+                Our <Purple strong>Mission</Purple>
             </h1>
             <Aboutcard />
           </Col>
@@ -35,17 +35,15 @@ function About() {
           </Col>
         </Row>
         <h1 className="project-heading">
-          Professional <strong className="purple">Skillset </strong>
+          <strong className="purple">Technologies </strong> we may utilize
         </h1>
 
         <Techstack />
 
         <h1 className="project-heading">
-          <strong className="purple">Tools</strong> I use
+          <strong className="purple">Tools</strong> we may utilize
         </h1>
         <Toolstack />
-
-        <Github />
       </Container>
     </Container>
   );

@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+
+.logo-yellow {
+    color: #FFCE05;
+}
+
+.logo-blue {
+    color: #67B1EE;
+}
+
+.logo-purple {
+    color: #C17BD4;
+}
