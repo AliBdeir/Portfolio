@@ -1,15 +1,12 @@
 import React from "react";
-import { Purple } from "../Purple";
-import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/small.png";
-import Tilt from "react-parallax-tilt";
+import { Col, Container, Row } from "react-bootstrap";
 import {
-    AiFillGithub,
-    AiOutlineTwitter,
-    AiFillInstagram,
+    AiFillGithub
 } from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+import Tilt from "react-parallax-tilt";
+import myImg from "../../Assets/small.png";
 import { LogoText } from "../LogoText";
+import { Purple } from "../Purple";
 
 function Home2() {
     return (
