@@ -39,13 +39,10 @@ function Home2() {
                 <Row>
                     <Col md={12} className="home-about-social">
                         <h1>FIND US ON</h1>
-                        <p>
-                            Feel free to <span className="purple">connect </span>with me
-                        </p>
                         <ul className="home-about-social-links">
                             <li className="social-icons">
                                 <a
-                                    href="/"
+                                    href="https://github.com/OLogN-umd"
                                     target="_blank"
                                     rel="noreferrer"
                                     className="icon-colour  home-social-icons"
@@ -53,7 +50,7 @@ function Home2() {
                                     <AiFillGithub />
                                 </a>
                             </li>
-                            <li className="social-icons">
+                            {/* <li className="social-icons">
                                 <a
                                     href="/"
                                     target="_blank"
@@ -82,7 +79,7 @@ function Home2() {
                                 >
                                     <AiFillInstagram />
                                 </a>
-                            </li>
+                            </li> */}
                         </ul>
                     </Col>
                 </Row>
